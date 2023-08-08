@@ -1,2 +1,2 @@
--- use select keyword.
+-- use COUNT keyword.
 select count(id) from TableName;
