@@ -15,3 +15,8 @@ select city from STATION where city like 'a_';
 
 -- return all string  of length 2 that ends with a;
 select city from STATION where city like '_a';
+
+
+
+-- to identify vowel.
+select city from STATION where city like '[a,e,i,o,u]%';
