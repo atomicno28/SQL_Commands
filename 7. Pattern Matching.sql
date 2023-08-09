@@ -18,5 +18,7 @@ select city from STATION where city like '_a';
 
 
 
--- to identify vowel.
-select city from STATION where city like '[a,e,i,o,u]%';
+-- NOT LIKE KEYWORD.
+
+-- this will fetch all the entries that are not starting with.
+selct city from STATION where city not like 'a%'
