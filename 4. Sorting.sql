@@ -16,3 +16,7 @@ select name from student order by Right(name,3);
 
 select name from student order by Left/Right(name,n),ID;
 
+-- (NEWW_COMMIT)
+--  where marks is the constraint.
+select Name from STUDENTS where Marks>75 order by right(Name,3),ID ;
+
