@@ -19,7 +19,13 @@ select name from student order by Left/Right(name,n),ID;
 --  where marks is the constraint.
 select Name from STUDENTS where Marks>75 order by right(Name,3),ID ;
 
--- (NEWW_COMMIT)
 -- fetching in alphabetical order (Use Asc keyword.)
 select name from student order by name ASC;
+
+-- (NEWW_COMMIT)
+-- find kth largest element
+select salary from TABLE order by salary limit 1 offset k-1;
+
+( limit 1 = only one row ).
+( offset k-1 = ignore first k-1 element ).
 
