@@ -3,7 +3,7 @@
 -- SELECT (used to fetch)
 select * from Table; -- it will select everything from the table.
 
--- (they can we executed without FROM keyword.)
+-- (they can be executed without FROM keyword.)
 select 55 + 11 -- it will add and show in dummy table.
 select now(); -- it will fetch the server time.
 select lcase("NIkhIL") -- output (nikhil)
