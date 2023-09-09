@@ -1,5 +1,9 @@
 -- REGEXP is a keyword used for pattern matching using regular expressions.
 
+
+-- (^) -> starting with.
+-- ($) -> ending with.
+
 --'^[aeiou]' is a regular expression pattern that matches city names starting with any lowercase vowel (a, e, i, o, or u).
 select city from STATION where city  regexp('^[AEIOU]');
 
