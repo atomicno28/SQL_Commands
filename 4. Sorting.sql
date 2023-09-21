@@ -24,8 +24,12 @@ select name from student order by name ASC;
 
 -- (NEWW_COMMIT)
 -- find kth largest element
-select salary from TABLE order by salary limit 1 offset k-1;
+select salary from Employee order by salary limit 1 offset k-1;
 
 ( limit 1 = only one row ).
 ( offset k-1 = ignore first k-1 element ).
 
+-- OR
+
+-- limit(ignore x elements,print y elements).
+select salary from Employee order salary desc limit(2,1);
