@@ -2,7 +2,7 @@
 select name from student order by id;
 
 --2 sort by descending 
-select name from student order DESC by id;
+select name from student order by id desc;
 
 -- sort the string from starting index to n letters.
 select name from student order by Left(name,3);
